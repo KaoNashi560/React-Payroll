@@ -1,1 +1,51 @@
 # React-Payroll
+## Tables
+- users
+  - id
+  - role
+  - username
+  - password
+- admins
+  - id
+  - name
+  - user_id
+- employees
+  - id
+  - first_name
+  - middle_name
+  - last_name
+  - position_id
+  - deduction_id
+  - user_id
+- positions
+  - id
+  - name
+  - basic_salary_per_hour
+  - honorarium_amount
+- schedules
+  - id
+  - start_time
+  - break_start_time
+  - break_end_time
+  - end_time
+  - employee_id
+- attendances
+  - id
+  - first_time_in
+  - first_time_out
+  - second_time_in
+  - second_time_out
+  - employee_id
+- deductions
+  - id
+  - for
+  - amount
+  - employee_id
+- pay_slips
+  - id
+  - start_date
+  - end_date
+  - net_amount
+  - employee_id
+  - prepared_by_id(admin_id)
+
